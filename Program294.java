@@ -1,0 +1,17 @@
+import java.util.*;
+
+class Program294
+{
+    public static void main(String A[])
+    {
+        int Arr[] = {45,21,90,54,78};
+                                        //for-each loop used to travel through the loop
+        for(int no : Arr)
+        {
+            System.out.println(no);
+        }
+        int index = Arrays.binarySearch(Arr,90);
+
+        System.out.println("Element found at :"+index);
+    }
+}
